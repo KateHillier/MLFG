@@ -1,0 +1,6 @@
+#speakers img {
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	border: 1px solid blue;
+}
