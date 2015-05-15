@@ -1,6 +1,38 @@
+.orange {
+	color: rgb(233,114,88);
+}
+
+.blue {
+	color: rgb(20,137,174);
+}
+
+.background-highlight {
+	background: rgb(247,247,247);
+	padding: 20px 60px;
+	margin: 0;
+}
+
 #speakers img {
 	height: 230px;
 	width: 230px;
 	border-radius: 50%;
-	border: 1px solid blue;
+	border: 1px solid rgb(20,137,174);
+}
+
+#speakers h4 {
+	color: rgb(20,137,174);
+}
+
+#why-attend img {
+	height: 100px;
+	width: 100px;
+}
+
+#why-attend h3 {
+	color: rgb(233,114,88);
+}
+
+#why-attend span {
+	color: rgb(20,137,174);
+	font-weight: 500;
 }
