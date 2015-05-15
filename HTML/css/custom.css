@@ -6,6 +6,10 @@
 	color: rgb(20,137,174);
 }
 
+.green {
+	color: rgb(145,192,186);
+}
+
 .background-highlight {
 	background: rgb(247,247,247);
 	padding: 20px 60px;
@@ -36,3 +40,90 @@
 	color: rgb(20,137,174);
 	font-weight: 500;
 }
+
+#leaders {
+	color: rgb(20,137,174);
+}
+
+#leaders .circle {
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgb(20,137,174);
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+#leaders .circle p {
+	font-size: 50px;
+	font-weight: 400;
+	position: relative;
+ 	top: 50%;
+	transform: translateY(-50%);
+}
+
+#leaders .circle span {
+	font-size: 22px;
+	display: block;
+	line-height: 0;
+}
+
+#leaders p.orange {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.border {
+	height: 20px;
+	background: rgb(25,139,176); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(25,139,176,1) 0%, rgba(244,249,251,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(25,139,176,1)), color-stop(100%,rgba(244,249,251,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(25,139,176,1) 0%,rgba(244,249,251,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(25,139,176,1) 0%,rgba(244,249,251,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(25,139,176,1) 0%,rgba(244,249,251,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(25,139,176,1) 0%,rgba(244,249,251,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#198bb0', endColorstr='#f4f9fb',GradientType=1 ); /* IE6-9 */
+}
+
+#three-pillars .self-aware {
+	margin: 0;
+}
+
+#forum-experience .forum-photo1 {
+	position: relative;
+	background: red url(images/forum-experience-photo1.jpg);
+	height: 404px;
+}
+
+#forum-experience p.experience-quote {
+	background: rgb(247,247,247);
+	font-size: 19px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#forum-experience p.experience-quote:first-of-type {
+	margin-top: 0;
+}
+
+#forum-experience img.left, #forum-experience img.right {
+	margin-top: 20px;	
+	width: 175px;
+	height: 175px;
+}
+
+#forum-experience img.left {
+	margin-right: 15px;
+}
+
+#forum-experience img.center, #forum-experience iframe {
+	margin-top: 20px;
+}
+
+#register, #register2, #register h2, #register2 h2 {
+	color: #fff;
+}
+
+#register span, #register2 span {
+	font-weight: 400;
+} 

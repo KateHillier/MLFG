@@ -107,6 +107,7 @@ sup {
 .btn.btn-primary {
 	background-color: rgb(233,114,88);
 	border: 1px solid #fff;
+	text-transform: uppercase;
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus {
 	background-color: #ff9966;
