@@ -102,7 +102,7 @@ sup {
 	color: white;
 }
 .btn.btn-large {
-	padding: 12px 19px 14px;
+	padding: 12px 40px 14px;
 }
 .btn.btn-primary {
 	background-color: rgb(233,114,88);
@@ -984,17 +984,27 @@ a.instagram:hover {
 /* Schedule Section */
 .schedule-download {
 	display: inline-block;
-	font-weight: 100;
+	font-weight: 300;
 	margin: 20px 0;
+	background: rgb(233,114,88);
+	border-radius: 15%;
+	padding: 20px;
+}
+.schedule-download h2 {
+	color: #fff;
 }
 .schedule-download a {
-	padding: 15px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #fff;
+	text-transform: uppercase;
 }
 .schedule-download p {
 	display: inline-block;
-	font-size: 18px;
-	font-weight: 100;
+	font-size: 16px;
+	font-weight: 300;
 	margin: 0;
+	color: #fff;
 }
 /* Workshops Section */
 .event-items {
@@ -1370,24 +1380,23 @@ a.instagram:hover {
 }
 .tab-fillspace li a {
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 20px;
 	margin-right: 0 !important;
 	text-align: center;
-	text-transform: uppercase;
 }
 /**/
 .nav-pills > li > a {
 	padding-bottom: 15px;
 	padding-top: 15px;
 	margin: 0 5px 0 0 !important;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(153, 153, 153, 0.2);
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
 	border-radius: 8px;
-	color: #FFFFFF;
+	color: rgb(20,137,174);
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
 	-o-transition: 0.25s;
@@ -1400,7 +1409,7 @@ a.instagram:hover {
 	background-color: #E27249;
 }
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-	background-color: #2C3840;
+	background-color: rgb(20,137,174);
 }
 /* */
 #schedule-tabs {
@@ -1504,7 +1513,7 @@ a.instagram:hover {
 	transition: all 0.4s ease-in-out;
 }
 .timeline-icon-container {
-	background: rgb(233,114,88); /* Old browsers */
+	background: rgb(23,151,182); /* Old browsers */
 	/*background: -moz-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* FF3.6+ */
 	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #EFEFEF), color-stop(100%, #EF7247)); /* Chrome,Safari4+ */
 	/*background: -webkit-linear-gradient(top, #EFEFEF 1%, #EF7247 100%); /* Chrome10+,Safari5.1+ */
@@ -1528,11 +1537,14 @@ a.instagram:hover {
 	vertical-align: text-top;
 	width: 30px;
 }
-.timeline-icon-container i {
-	color: #FFFFFF;
-	font-size: 19px;
-	line-height: 28px;
-	padding-left: 2px;
+.time-point {
+	background: rgb(20,137,174);
+	border-radius: 50%;
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 7px;
 }
 .event:hover .timeline-icon {
 	/*background: none repeat scroll 0 0 rgba(255, 255, 255, 0.65);*/
@@ -1546,12 +1558,11 @@ a.instagram:hover {
 .time-box:before {
 }
 .time-box time {
-	color: rgba(0, 0, 0, 0.35);
-	font-size: 20px;
-	font-weight: 600;
+	color: rgb(20,137,174);
+	font-size: 18px;
+	font-weight: 400;
 	padding: 0 0 0 15px;
 	text-align: left;
-	text-transform: uppercase;
 	width: 100%;
 }
 .time-box sup {
@@ -1582,6 +1593,7 @@ a.instagram:hover {
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);*/
 	padding: 1px 16px;
 	width: 100%;/*width: -moz-calc(100% - 30px);/* Firefox *//*width: -webkit-calc(100% - 30px);/* WebKit *//*width: -o-calc(100% - 30px);/* Opera *//*width: calc(100% - 30px);/* Standard */
+	border: 1px solid rgb(20,137,174);
 }
 .event-content:before {
 	background: url("../images/tri_left.png") no-repeat scroll 0 0 transparent;
@@ -1596,17 +1608,24 @@ a.instagram:hover {
 	font-size: 22px;
 	line-height: 40px;
 	text-transform: uppercase;
+	color: rgb(233,114,88);
+	font-weight: 300;
 }
 .event-title h3 span {
-	color: #999999;
-	font-weight: 400;
-	text-transform: none;
+	font-size: 26px;
 }
 .event-title h4 span {
 	color: #999999;
 	font-weight: 400;
 }
-
+.event-title p span {
+	color: rgb(20,137,174);
+	font-weight: 400;
+	display: block;
+}
+.event-title p ~ span {
+	margin-bottom: 0;
+}
 /* Alerts */
 .alert .close {
 	top: 2px;

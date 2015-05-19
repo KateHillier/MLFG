@@ -88,18 +88,75 @@
 	margin: 0;
 }
 
-#forum-experience .forum-photo1 {
+#forum-experience .forum-photo {
 	position: relative;
-	background: red url(images/forum-experience-photo1.jpg);
-	height: 404px;
+	height: 400px;
+}
+
+#forum-experience .forum-photo1 {
+	background: url("../images/forum-experience-photo1.jpg") no-repeat;
+	display: table-cell;
+	vertical-align: bottom;
+	width: 370px;
+}
+
+#forum-experience .forum-photo2 {
+	background: url("../images/forum-experience-photo2.jpg") no-repeat center;
+	margin-bottom: 20px;
+}
+
+#forum-experience .forum-photo3 {
+	background: url("../images/forum-experience-photo3.jpg") no-repeat;
+	display: table-cell;
+	vertical-align: bottom;
+	width: 370px;
+}
+
+#forum-experience .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#forum-experience .overlay-blue {
+	background-color: rgba(20, 137, 174, 0.5);
+}
+
+#forum-experience .overlay-orange {
+	background-color: rgba(233, 114, 88, 0.5);
+}
+
+#forum-experience .overlay-green {
+	background-color: rgba(145, 192, 186, 0.5);
+}
+
+#forum-experience h4 {
+	position: relative;
+	color: #fff;
+	font-weight: 400;
+	font-size: 26px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin: 20px 40px;
+}
+
+#forum-experience .forum-photo:nth-of-type(2) h4 {
+	top: 20px;
+}
+
+#forum-experience h4 span {
+	font-size: 30px;
 }
 
 #forum-experience p.experience-quote {
 	background: rgb(247,247,247);
 	font-size: 19px;
-	padding: 20px;
+	padding: 18px;
 	margin-top: 20px;
 	margin-bottom: 0;
+	height: 169px;
 }
 
 #forum-experience p.experience-quote:first-of-type {
@@ -120,6 +177,15 @@
 	margin-top: 20px;
 }
 
+#program .day-one {
+	font-size: 16px;
+}
+
+#program .day-one p span {
+	color: rgb(20,137,174);
+	font-weight: 400;
+}
+
 #register, #register2, #register h2, #register2 h2 {
 	color: #fff;
 }
@@ -127,3 +193,89 @@
 #register span, #register2 span {
 	font-weight: 400;
 } 
+
+#buzz .quote, #innovative-companies .quote {
+	color: #fff;
+	font-style: italic;
+	font-size: 30px;
+	padding: 20px 30px;
+}
+
+#buzz .quote span, #innovative-companies .quote span {
+	display: block;
+	font-style: initial;
+	font-size: initial;
+	margin-top: 30px;
+}
+
+#buzz .quote1, #innovative-companies .quote1 {
+	background: rgb(233,114,88);
+	margin: 20px 0;
+}
+
+#buzz .quote2, #innovative-companies .quote2 {
+	background: rgb(242,241,243);
+	color: rgb(233,114,88);
+	padding: 26px 30px;
+}
+
+#buzz .quote3 {
+	background: rgb(20,137,174);
+	padding: 24px 30px;
+}
+
+#buzz .quote4, #innovative-companies .quote4 {
+	background: rgb(145,192,186);
+	margin-left: 20px;
+	padding: 30px;
+}
+
+#buzz .time {
+	height: 431px;
+	padding-left: 45px;
+	margin-bottom: 19px;
+}
+
+#buzz .mindful {
+	margin-left: 0;
+}
+
+#buzz .huff {
+	margin: 20px 0 0 20px;
+}
+
+#innovative-companies p.title {
+	color: rgb(20,137,174);
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+#innovative-companies .quote {
+	margin: 3px 0 0 0;
+	padding: 30px 40px;
+}
+
+#feedback .testimonial {
+	margin-bottom: 50px;
+}
+
+#feedback .testimonial .feedback-quote {
+	border: 1px solid rgb(20,137,174);
+	border-radius: 10px;
+	padding: 40px;
+	margin: 0 20px 30px 0;
+}
+
+#feedback .testimonial img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	float: left;
+	position: relative;
+	bottom: 10px;
+}
+
+#feedback .testimonial h4 {
+	color: rgb(20,137,174);
+	margin-bottom: 0;
+}
