@@ -341,23 +341,26 @@
 }
 
 .Zebra_Accordion dd {
-  display: none; }
+  display: none; 
+}
 
 .Zebra_Accordion dt {
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 dl.Zebra_Accordion {
   width: 80%;
   font-size: 15px;
   float: none;
-  margin: 0px auto 20px; }
+  margin: 0px auto 20px; 
+}
 
 dl.Zebra_Accordion dt {
   font-weight: 600;
   padding: 15px;
   font-size: 18px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  color: rgb(233,114,88);
+  color: rgb(20,137,174);
   background-color: transparent;
   -webkit-transition: background-color 0.5s ease;
   -moz-transition: background-color 0.4s ease;
@@ -367,15 +370,17 @@ dl.Zebra_Accordion dt {
   margin-top: 0px;
   display: block;
   clear: both;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  border-top: 1px solid rgb(20,137,174); 
+}
 
 dl.Zebra_Accordion dt:hover {
-  color: rgb(20,137,174);
+  color: rgb(233,114,88);
   -webkit-transition: background-color 0.5s ease;
   -moz-transition: background-color 0.4s ease;
   -ms-transition: background-color 0.4s ease;
   -o-transition: background-color 0.4s ease;
-  transition: background-color 0.4s ease; }
+  transition: background-color 0.4s ease; 
+}
 
 dl.Zebra_Accordion dd {
   background-color: #fff;
@@ -383,13 +388,15 @@ dl.Zebra_Accordion dd {
   margin: 0px 0;
   font-size: 17px;
   line-height: 24px;
-  color: #555; }
+  color: #555; 
+}
 
 dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
   color: #fff;
   background-color: #fff;
-  color: rgb(20,137,174);
-  padding-bottom: 1px; }
+  color: rgb(233,114,88);
+  padding-bottom: 1px; 
+}
 
 
 
