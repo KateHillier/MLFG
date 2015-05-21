@@ -422,7 +422,7 @@ nav select {
 #about {
 	background: none repeat scroll 0 0 #FFFFFF;
 }
-#register {
+#register, #register2 {
 	background: /*#7bc1a1*/url(../images/backgrounds/intro.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -435,17 +435,6 @@ nav select {
 }
 #workshops {
 	background: #F2BC47;
-}
-#venue {
-	background: url(../images/backgrounds/venue.jpg) center center no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color: #4C5D67;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
 }
 #sponsors {
 	background: #E7EBED;
@@ -1605,18 +1594,19 @@ a.instagram:hover {
 	width: 8px;
 }
 .event-title h3 {
-	font-size: 22px;
-	line-height: 40px;
-	text-transform: uppercase;
-	color: rgb(233,114,88);
-	font-weight: 300;
-}
-.event-title h3 span {
 	font-size: 26px;
+	font-weight: 300;
+	line-height: 40px;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: rgb(233,114,88);
 }
 .event-title h4 span {
 	color: #999999;
 	font-weight: 400;
+}
+.event-title p {
+	font-size: 19px;
 }
 .event-title p span {
 	color: rgb(20,137,174);
