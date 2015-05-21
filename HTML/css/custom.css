@@ -244,15 +244,6 @@
 	margin: 20px 0 0 20px;
 }
 
-#innovative-companies p.title, #partners h3.title {
-	color: rgb(20,137,174);
-	text-transform: capitalize;
-	font-variant: small-caps;
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 1.2;
-}
-
 #innovative-companies .quote {
 	margin: 3px 0 0 0;
 	padding: 30px 40px;
@@ -336,10 +327,6 @@
 	width: 205px;
 }
 
-#partners h3.title {
-	color: rgb(233,114,88);
-}
-
 .Zebra_Accordion dd {
   display: none; 
 }
@@ -398,5 +385,27 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
   padding-bottom: 1px; 
 }
 
+#contact img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 20px 0 30px;
+}
 
+#contact p, #contact a {
+	font-size: 19px;
+	margin-bottom: 0;
+}
 
+#footer p {
+	margin: 0;
+}
+
+#footer img {
+	width: 90px;
+	height: 40px;
+}
+
+#footer span {
+	font-style: italic;
+}

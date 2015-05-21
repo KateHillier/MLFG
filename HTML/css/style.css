@@ -42,6 +42,14 @@ h1, h2 {
 h2 {
 	color: rgb(233,114,88);
 }
+h3 {
+	color: rgb(233,114,88);
+	text-transform: capitalize;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.2;
+}
 h4 {
 	font-size: 22px;
 }
@@ -409,10 +417,10 @@ nav select {
 	margin: 0 auto;
 	padding: 0;
 }
-#about, #speakers, #why-attend, #three-pillars, #forum-experience, #program, #register, #buzz, #attended, #feedback, #results, #venue, #partners, #register2, #faq, #contact {
+#about, #speakers, #why-attend, #three-pillars, #forum-experience, #program, #register, #buzz, #attended, #feedback, #results, #venue, #partners, #register2, #faq, #contact, #contact-form {
 	padding-top: 75px;
 }
-#speakers, #why-attend, #three-pillars, #program, #register, #feedback, #register2, #faq, #contact {
+#speakers, #why-attend, #three-pillars, #program, #register, #feedback, #register2, #contact, #contact-form {
 	padding-bottom: 75px;
 }
 #why-attend, #forum-experience {
@@ -446,10 +454,6 @@ nav select {
 #twitter-feed {
 	background: #E7EBED;
 	padding: 60px 0;
-}
-#contact {
-	background: #4C5D67;
-	padding-bottom: 80px;
 }
 #newsletter {
 	background: #E7EBED;
