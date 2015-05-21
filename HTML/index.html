@@ -890,11 +890,62 @@
   </div> <!-- end container -->
 </section> <!-- end register2 -->
 
-
 <section id="faq">
   <div class="container">
     <div class="row">
-      
+      <div class="span12 text-center">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <dl class="Zebra_Accordion" id="Zebra_Accordion1">
+        <dt style="margin-top:0px;">What do you mean by mindful leadership?</dt>
+        <dd>
+         Mindful leaders recognise that skills such as self awareness, authenticity and compassion are essential - not just optional - for the success of individuals, organisations and entire industries.
+        </dd>
+        <dt>Who should attend the Mindful Leadership Forum?</dt>
+        <dd>
+          This forum is designed for business leaders, leadership teams, executives, academics, consultants, managers, professionals and CEOs across all sectors. Janice Marturano, founder of the Institute for Mindful Leadership, recently said via The Huffington Post: “Mindful Leadership is needed from every one of us. Whether we’re leading a global organisation, a team, a classroom or a family, each of us is a leader. Mindful Leadership is about whether we choose to lead with excellence or not.”
+        </dd>
+        <dt>Why is mindful leadership so important now?</dt>
+        <dd>
+          The way we’re working isn’t working. In a world with increasing demands, people are working more hours, spending more time connected to digital devices and taking less time to renew. As a result, there are unprecedented levels of stress, exhaustion and overwhelm. This is creating work cultures where people are unfocused, running on “autopilot” and disengaged. Stress is costing Australian business over $17 billion a year (Medibank Private, 2008) and absenteeism is estimated to cost $6.4 billion a year. Mindful leadership is a great way to bring out the best in people and create a workplace that is purposeful, innovative and successful.
+        </dd>
+        <dt>How is this going to help me in my job?</dt>
+        <dd>
+            As you build the skills of mindful leadership, you will become less stressed, less overwhelmed and less distracted. As you increase your mindful presence you will become more focused, engaged and make better decisions. This increases efficiency, productivity as well as making you more available to receive creative ideas and insights. You will also increase your capacity to connect with other people and respond in wiser ways to everyday events as well as significant challenges, upsets and difficult relationships.
+        </dd>
+          <dt>Is mindful leadership evidenced based?</dt>
+          <dd>
+            This forum draws upon decades of scientific research in the realms of psychology, medicine, and neuroscience, as well as well-regarded and accepted theories of emotional, relational, and collective intelligence. The principles of mindful leadership have been scientifically examined at places like the University of Massachusetts Medical School, the University of Wisconsin's Laboratory for Affective Neuroscience, and Stanford University’s School of Medicine.
+          </dd>
+          <dt>I’m new to mindful leadership, will I still benefit?</dt>
+          <dd>
+            Participants range from people that have had little to no experience with mindfulness to those who have had many years of practice. Most attendees report significant benefits from attending this event. One of the most obvious benefit is learning to calm our minds and balance our nervous systems so that we can shift away from running on adrenaline to more sustainable modes of operating.
+          </dd>
+          <dt>What if my work culture doesn’t support this kind of leadership?</dt>
+          <dd>
+            Mindful leadership helps shift an organisation from a short-term focus and driven mode to a longer-term, more compassionate way of operating. Most organisations that have transitioned towards mindful leadership have done so one person, one team and one choice at a time. This forum invites you to be the leader the world needs now by getting in touch with your capacity to make a difference in your own life and your organization's culture.
+          </dd>
+          <dt>Do I need to bring anything?</dt>
+          <dd>
+            Bring an open heart and your favourite pen. We’ll provide journals, hot tea, coffee and water. If you know that you need a particular snack (gluten free, a special protein bar, etc) to keep you happy and focused we suggest you pack it!
+          </dd>
+          <dt>Are you going to feed us?</dt>
+          <dd>
+            Snacks will be available each day for nibbling between sessions. However, we encourage you to bring whatever essential snacks you need to keep your motor running. For lunch, there are a range of restaurant choices around the Concourse theatre.
+          </dd>
+          <dt>What are my transport options getting to the Concourse?</dt>
+          <dd>
+            By Car: 15 minutes from the CBD, with 500+ parking spaces underneath the venue. By Train/Bus: 2 minute walk from Chatswood train/bus interchange. For more venue details please visit The Concourse website <a href="http://www.theconcourse.com.au/content/getting-here" target="_blank">http://www.theconcourse.com.au/content/getting-here</a> 
+          </dd>
+          <dt>I’ll be flying into Sydney, where should I stay?</dt>
+          <dd>
+            Chatswood is located on Sydney's North Shore, 15 minutes from the Sydney CBD and 30 minutes from the airport. There are two hotels located in the centre of Chatswood and that are close to the venue: Mantra Chatswood <a href="www.Mantra.com/chatswood" target="_blank">www.Mantra.com/chatswood</a> and Sebel Residence Chatswood <a href="www.thesebelresidencechatswood.com.au" target="_blank">www.thesebelresidencechatswood.com.au</a>
+          </dd>
+          <dt>What should I wear?</dt>
+          <dd>
+            Wear something that you feel confident and comfortable in.
+          </dd>
+        </dl>
     </div> <!-- end row -->
   </div> <!-- end container -->
 </section> <!-- end faq -->
@@ -1105,7 +1156,14 @@
 <script type="text/javascript" src="js/jquery.validationengine-en.min.js"></script> 
 <script type="text/javascript" src="js/jquery.validationengine.min.js"></script> 
 <script type="text/javascript" src="js/tweetie.min.js"></script> 
-<script type="text/javascript" src="js/custom.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/zebra_accordion.js"></script> 
+
+<script>  
+  $(document).ready(function() {
+  var myAccordion = new $.Zebra_Accordion($('.Zebra_Accordion'));
+});
+</script>
 <!-- Google analytics here -->
 </body>
 </html>

@@ -17,7 +17,7 @@ body {
 	background-color: #ffffff;
 }
 a {
-	color: #48A3A6;
+	color: rgb(20,137,174);
 	text-decoration: none;
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
@@ -25,6 +25,7 @@ a {
 	transition: 0.25s;
 	-webkit-backface-visibility: hidden;
 	outline: 0;
+	font-weight: 400;
 }
 a:hover {
 	color: rgb(233,114,88);
