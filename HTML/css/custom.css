@@ -399,6 +399,22 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
 	margin-bottom: 0;
 }
 
+select#mr-field-element-845857220934 {
+	width: 236px;
+	height: 40px;
+	font-weight: 400;
+}
+
+input#mr-field-element-580245537683 {
+	background: rgb(20,137,174);
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	padding: 15px 20px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+
 #footer p {
 	margin: 0;
 }

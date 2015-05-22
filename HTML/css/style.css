@@ -233,19 +233,18 @@ sup {
 	color: #FFFFFF;
 }
 /* Forms */
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-	background-color: #D3DCE0;
-	border: 2px solid #D3DCE0;
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, select#mr-field-element-845857220934 {
+	border: none;
 	box-shadow: none;
 }
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, option {
 	border-radius: 8px;
 	color: #4C5D67;
-	font-family: 'open sans';
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 100;
 	line-height: 24px;
-	padding: 6px 8px;
+	padding: 10px 15px;
 }
 .input-block-level {
 	min-height: 40px;
