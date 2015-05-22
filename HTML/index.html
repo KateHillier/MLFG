@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="css/jquery.countdown.css" />
 <link rel="stylesheet" href="css/jquery.validationengine.css" />
 <link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
 <link rel="stylesheet" href="css/custom.css">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -367,7 +368,7 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Registration, tea & coffee</h3>
                     </div>
                   </div>
@@ -386,8 +387,10 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Session 1: Mindful Leadership</h3>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">  
                       <p><span>Finding the Space to Lead</span> Janice Marturano</p>
                       <p><span>The Power of Compassion</span> Dr. James Doty</p>
                       <p><span>Conversation: The Practice of Mindful Leadership</span> Mark Britt, Gordon Cairns & Neil Thompson, with Jono Fisher as host</p>
@@ -409,7 +412,7 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Morning Break</h3>
                     </div>
                   </div>
@@ -428,8 +431,10 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Session 2: Mindful Leadership</h3>
+                    </div>
+                    <div class="toggle-item-body" style="display: none;">  
                       <p><span>Conversation: The Practice of Mindful Leadership</span>Mark Britt, Gordon Cairns & Neil Thompson, with Jono Fisher as host</p>
                     </div>
                   </div>
@@ -466,8 +471,10 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Session 3: Putting this into Practice</h3>
+                    </div>  
+                    <div class="toggle-item-body" style="display: none;">
                       <p><span>Practice Hub 1: How do I become a Mindful leader?</span> Facilitator: Janice Maturano, Former VP and Deputy Counsel at General Mills, Key World Economic Forum presenter</br>
                       Chair: TBC</p>
                       <p><span>Practice Hub 2: How to create a mindful organisation?</span>Facilitator: TBC Chair: Amanda Sinclair, Professor Melbourne Business School</p>
@@ -492,7 +499,7 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Afternoon Tea</h3>
                     </div>
                   </div>
@@ -513,6 +520,8 @@
                   <div class="event-content">
                     <div class="toggle-item-title event-title" data-count="1">
                       <h3>Session 4: Mindful Leadership for the World</h3>
+                    </div>  
+                    <div class="toggle-item-body" style="display: none;">
                       <p><span>Compassion, Technology & Human Flourishing</span>Arturo Bejar, Facebook Engineering Director</p>
                       <p><span>Mindful Leadership can change the world</span>Mark Gilmour, Head of Brand, Virgin; Board Member, Virgin Unite.</p>
                       <p><span>Where to now?</span>Jono Fisher, Wake Up Project</p>
@@ -533,7 +542,7 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Close</h3>
                     </div>
                   </div>
@@ -571,8 +580,10 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Workshop Option 1: Mindful Leadership – Finding the Space to Lead</h3>
+                    </div>  
+                    <div class="toggle-item-body" style="display: none;">
                       <p><span>Led by: Janice Marturano, Former VP and Deputy Counsel at General Mills, Founder of Mindful Leadership Institute</span></p>
                     </div>
                   </div>
@@ -591,8 +602,10 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Workshop Option 2: Mindful Leadership for the 21st Century</h3>
+                    </div>  
+                    <div class="toggle-item-body" style="display: none;">
                       <p><span>Co led by: Dr. Jeremy Hunter, Assistant Professor, Peter Drucker School of Management. Second Facilitator TBC</span></p>
                     </div>
                   </div>
@@ -611,7 +624,7 @@
                 </div>
                 <div class="timeline-content">
                   <div class="event-content">
-                    <div class="event-title" data-count="1">
+                    <div class="toggle-item-title event-title" data-count="1">
                       <h3>Close</h3>
                     </div>
                   </div>
@@ -688,27 +701,18 @@
       <div class="span12 text-center">
         <h3 class="blue">Innovative companies adopting<br>mindful leadership</h3>
       </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span2">
-        <img src="#" alt="">
-      </div>
-      <div class="span12 text-center">
-        <div class="divider-space"></div>
-      </div>
+      <ul class="bxslider">
+        <li><img src="images/logos/logo-goo.jpg" alt="Google"></li>
+        <li><img src="images/logos/logo-apple.jpg" alt="Apple"></li>
+        <li><img src="images/logos/logo-u.jpg" alt="Unilever"></li>
+        <li><img src="images/logos/logo-ebay.jpg" alt="ebay"></li>
+        <li><img src="images/logos/logo-har.jpg" alt="Harvard Business School"></li>
+        <li><img src="images/logos/logo-wef.jpg" alt="World Economic Forum"></li>
+        <li><img src="images/logos/logo-link.jpg" alt="LinkedIn"></li>
+        <li><img src="images/logos/logo-yahoo.jpg" alt="Yahoo"></li>
+        <li><img src="images/logos/logo-huff.jpg" alt="The Huffington Post"></li>
+        <li><img src="images/logos/logo-nike.jpg" alt="Nike"></li>
+      </ul>
       <div class="span4 text-center">
         <img src="images/quote-img1.jpeg" alt="Jeff Weiner">
         <div class="quote quote2">
@@ -737,6 +741,50 @@
       <div class="span12 text-center">
         <h2 class="blue">Who Has Attended Previously?</h2>
         <p>In 2014 over 350 visionary thinkers, successful CEO’s and executives from over 50 organisations gathered to share and discover a new style of leadership that brings out the best in people and organisations. They enjoy connecting, learning from each other and being part of the ‘mindful revolution’ sweeping the globe. What about you?</p>
+      </div>
+      <div class="attendees">
+        <div class="span12 text-center">
+          <ul>
+            <li><img src="images/logos/virgin-australia.jpg" alt="Virgin"></li>
+            <li><img src="images/logos/google-300x105.png" alt="Google"></li>
+            <li><img src="images/logos/westpac.png" alt="Westpac"></li>
+            <li><img src="images/logos/EBay_logo.png" alt="eBay"></li>
+            <li><img src="images/logos/ninemsn.jpg" alt="NineMSN"></li>
+          </ul>
+        </div>  
+        <div class="span12 text-center">
+          <ul>
+            <li><img src="images/logos/linkedin_logo_3542.jpg" alt="LinkedIn"></li>
+            <li><img src="images/logos/nab-logo.jpg" alt="NAB"></li>
+            <li><img src="images/logos/allianz.jpg" alt="Allianz"></li>
+            <li><img src="images/logos/KPMG_logo.jpg" alt="KPMG"></li>
+            <li><img src="images/logos/Origin_Energy_Logo.jpg" alt="Origin"></li>
+          </ul>
+        </div>  
+        <div class="toggle-item-title toggle-see-more event-title text-center" data-count="1">
+          <p><span>See More</span></p>
+          <img src="images/down-arrow.png" alt="down">
+        </div>
+        <div class="toggle-item-body" style="display: none;">
+          <div class="span12 text-center">
+            <ul>
+              <li><img src="images/logos/CBA.Logo.Shadow.Outline.v3.jpg" alt="Commonwealth Bank"></li>
+              <li><img src="images/logos/Conscious_capitalism_b&w.jpg" alt="Conscious Capitalism"></li>
+              <li><img src="images/logos/Department-of-Health.png" alt="Department of Health"></li>
+              <li><img src="images/logos/tooheys-corporate-logo-2.jpg" alt="Tooheys"></li>
+              <li><img src="images/logos/metlife_logo.jpg" alt="Metlife"></li>
+            </ul>
+          </div>
+          <div class="span12 text-center">  
+            <ul>
+              <li><img src="images/logos/Suncorp-logo.jpg" alt="Suncorp"></li>
+              <li><img src="images/logos/swisse_logo.png" alt="Swisse"></li>
+              <li><img src="images/logos/woodside-logo-2.jpg" alt="Woodside"></li>
+              <li><img src="images/logos/IBM_logo.jpg" alt="IBM"></li>
+              <li><img src="images/logos/melbourne_business_school.jpg" alt="Melbourne Business School"></li>
+            </ul>
+          </div>  
+        </div>
       </div>
     </div> <!-- end row -->
   </div> <!-- end container -->
@@ -1180,11 +1228,23 @@
 <script type="text/javascript" src="js/jquery.validationengine.min.js"></script> 
 <script type="text/javascript" src="js/tweetie.min.js"></script> 
 <script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/zebra_accordion.js"></script> 
+<script type="text/javascript" src="js/zebra_accordion.js"></script>
+<script type="text/javascript" src="//forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?html=false&uid=p2c8394f65"></script> 
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 
 <script>  
   $(document).ready(function() {
   var myAccordion = new $.Zebra_Accordion($('.Zebra_Accordion'));
+
+  $('.bxslider').bxSlider({
+          minSlides: 4,
+          maxSlides: 8,
+          slideWidth: 220,
+          slideMargin: 10,
+          ticker: true,
+          speed:18000
+        });
+
 });
 </script>
 <!-- Google analytics here -->

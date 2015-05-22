@@ -416,7 +416,7 @@ nav select {
 	margin: 0 auto;
 	padding: 0;
 }
-#about, #speakers, #why-attend, #three-pillars, #forum-experience, #program, #register, #buzz, #attended, #feedback, #results, #venue, #partners, #register2, #faq, #contact, #contact-form {
+#about, #speakers, #why-attend, #three-pillars, #forum-experience, #program, #register, #buzz, #attended, #feedback, #results, #venue, #partners, #register2, #faq, #contact-form {
 	padding-top: 75px;
 }
 #speakers, #why-attend, #three-pillars, #program, #register, #feedback, #register2, #contact, #contact-form {
@@ -1420,6 +1420,9 @@ a.instagram:hover {
 .toggle-item-title.event-title.ui-state-active {
 	background: url(../images/icons/toggle-close.png) scroll no-repeat right 5px transparent;
 	padding: 0 32px 0 0;
+}
+.toggle-see-more, .toggle-item-title.toggle-see-more.event-title.ui-state-active {
+	background: none;
 }
 /* Modal */
 .modal {

@@ -179,13 +179,14 @@
 	margin-top: 20px;
 }
 
-#program .note {
+#program .toggle-item-body {
 	font-size: 16px;
 }
 
-#program .note p span {
+#program .toggle-item-body p span {
 	color: rgb(20,137,174);
 	font-weight: 400;
+	display: block;
 }
 
 #register, #register2, #register h2, #register2 h2 {
@@ -246,9 +247,27 @@
 	margin: 20px 0 0 20px;
 }
 
+#innovative-companies h3.blue {
+	margin-bottom: 50px;
+}
+
+#innovative-companies .bx-viewport {
+	box-shadow: none;
+	border: none;
+}
+
+#innovative-companies ul.bxslider img {
+	width: 100px;
+	height: 100px;
+}
+
 #innovative-companies .quote {
 	margin: 3px 0 0 0;
 	padding: 30px 40px;
+}
+
+.attendees ul li {
+	display: inline;
 }
 
 #feedback .testimonial {
@@ -413,6 +432,17 @@ input#mr-field-element-580245537683 {
 	padding: 15px 20px;
 	margin-top: 20px;
 	border-radius: 8px;
+}
+
+input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:focus {
+	background-color: #66cccc;
+	color: white;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+	-webkit-backface-visibility: hidden;
+	outline: 0;
 }
 
 #footer p {
