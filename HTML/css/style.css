@@ -55,7 +55,7 @@ h4 {
 }
 h5 {
 	color: rgb(233,114,88);
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: inherit;
 }
 ul {
@@ -73,7 +73,7 @@ sup {
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
 	border-radius: 8px;
-	background: #48A3A6;
+	background: rgb(20,137,174);
 	color: white;
 	font-size: 16.5px;
 	text-decoration: none;
@@ -338,7 +338,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	margin: 0;
 }
 .top-bar .navbar .nav > li > a {
-	background: rgba(0, 0, 0, 0.2);
+	/*background: rgba(0, 0, 0, 0.2);*/
 	border-radius: 5px;
 	color: #FFFFFF;
 	padding: 10px 9px;
@@ -347,6 +347,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	text-shadow: none;
 }
 .top-bar .navbar .nav > li:last-child > a {
+	background: rgb(233,114,88);
 }
 .top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
 	color: #FFFFFF;
@@ -1595,7 +1596,7 @@ a.instagram:hover {
 	background: url("../images/tri_left.png") no-repeat scroll 0 0 transparent;
 	content: " ";
 	height: 16px;
-	left: -8px;
+	/*left: -8px;*/
 	position: absolute;
 	top: 25px;
 	width: 8px;

@@ -10,6 +10,23 @@
 	color: rgb(145,192,186);
 }
 
+blockquote {
+	border-left: none;
+}
+
+blockquote::before {
+	content: '“';
+}
+
+blockquote::after {
+	content: '”';
+}
+
+.hero-unit p {
+	color: rgb(20,137,174);
+	font-weight: 400;
+}
+
 .background-highlight {
 	background: rgb(247,247,247);
 }
@@ -29,22 +46,33 @@
 	color: rgb(20,137,174);
 }
 
+#speakers .exclamation p {
+	font-style: italic;
+}
+
+#speakers .exclamation img {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}	
+
 #why-attend img {
 	height: 100px;
 	width: 100px;
 }
 
-#why-attend h3 {
+#why-attend h4 {
 	color: rgb(233,114,88);
 }
 
-#why-attend span {
+#why-attend span, #speakers .exclamation span {
 	color: rgb(20,137,174);
 	font-weight: 500;
 }
 
 #leaders {
 	color: rgb(20,137,174);
+	padding-top: 20px;
 }
 
 #leaders .circle {
@@ -72,6 +100,7 @@
 #leaders p.orange {
 	font-size: 18px;
 	margin-top: 10px;
+	font-style: italic;
 }
 
 .border {
@@ -175,8 +204,27 @@
 	margin-right: 15px;
 }
 
-#forum-experience img.center, #forum-experience iframe {
+#forum-experience .video {
+	position: relative;
+}
+
+#forum-experience img.center, #forum-experience img.vid {
 	margin-top: 20px;
+}
+
+#forum-experience a.btn-modal {
+	position: absolute;
+	right: 43%;
+	top: 35%;
+}
+
+#program .note p {
+	font-size: 16px;
+}
+
+#program .note span {
+	color: rgb(20,137,174);
+	font-weight: 400;
 }
 
 #program .toggle-item-body {
@@ -188,6 +236,34 @@
 	font-weight: 400;
 	display: block;
 }
+
+.arrow {
+	position: relative;
+	border: 1px solid #1489AE;
+}
+.arrow:after, .arrow:before {
+	right: 100%;
+	top: 31px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow:before {
+	border-color: rgba(20, 137, 174, 0);
+	border-right-color: #1489AE;
+	border-width: 11px;
+	margin-top: -11px;
+} 
 
 #register, #register2, #register h2, #register2 h2 {
 	color: #fff;
@@ -230,7 +306,7 @@
 #buzz .quote4, #innovative-companies .quote4 {
 	background: rgb(145,192,186);
 	margin-left: 20px;
-	padding: 30px;
+	height: 265px;
 }
 
 #buzz .time {
@@ -241,6 +317,13 @@
 
 #buzz .mindful {
 	margin-left: 0;
+	position: relative;
+}
+
+#buzz .btn-modal2 {
+	position: absolute;
+	bottom: 8%;
+	left: 30%;	
 }
 
 #buzz .huff {
@@ -254,6 +337,7 @@
 #innovative-companies .bx-viewport {
 	box-shadow: none;
 	border: none;
+	margin-left: 30px;
 }
 
 #innovative-companies ul.bxslider img {
@@ -275,10 +359,36 @@
 }
 
 #feedback .testimonial .feedback-quote {
+	position: relative;
 	border: 1px solid rgb(20,137,174);
 	border-radius: 10px;
 	padding: 40px;
 	margin: 0 20px 30px 0;
+}
+
+.feedback-quote:after, .feedback-quote:before {
+	top: 100%;
+	left: 35%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.feedback-quote:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+.feedback-quote:before {
+	border-color: rgba(20, 137, 174, 0);
+	border-top-color: #1489AE;
+	border-width: 31px;
+	margin-left: -31px;
 }
 
 #feedback .testimonial img {
@@ -456,4 +566,10 @@ input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:f
 
 #footer span {
 	font-style: italic;
+}
+
+
+/*---------------MODAL--------------*/
+.modal {
+	width: 592px;
 }
