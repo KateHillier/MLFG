@@ -36,8 +36,8 @@ blockquote::after {
 }
 
 #speakers img {
-	height: 230px;
-	width: 230px;
+	height: 180px;
+	width: 180px;
 	border-radius: 50%;
 	border: 1px solid rgb(20,137,174);
 }
@@ -322,8 +322,10 @@ blockquote::after {
 
 #buzz .btn-modal2 {
 	position: absolute;
-	bottom: 8%;
-	left: 30%;	
+	bottom: 18%;
+	left: 36%;	
+	width: 40px;
+	background: none;
 }
 
 #buzz .huff {
@@ -348,6 +350,8 @@ blockquote::after {
 #innovative-companies .quote {
 	margin: 3px 0 0 0;
 	padding: 30px 40px;
+	font-size: 26px;
+	height: inherit;
 }
 
 .attendees ul li {
@@ -420,11 +424,53 @@ blockquote::after {
 	display: block;
 }
 
+#results .numbers {
+	height: 330px;
+	position: relative;
+	margin: 80px 0 110px 30px;	
+}
+
 .result1, .result2, .result3, .result4, .result5, .result6 {
 	width: 130px;
-	height: 300px;
 	padding: 10px;
-	margin-left: 50px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;	
+	-webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+}
+
+.result1 {
+	height: 285px;
+}
+
+.result2 {
+	height: 282px;
+	left: 202px;
+}
+
+.result3 {
+	height: 237px;
+	left: 404px;
+}
+
+.result4 {
+	height: 267px;
+	left: 606px;
+}
+
+.result5 {
+	height: 243px;
+	left: 808px;
+}
+
+.result6 {
+	height: 285px;
+	left: 1019px;
+}
+
+.reflectBelow	{ 
+	-webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); 
 }
 
 #results .result1, #results .result4 {
