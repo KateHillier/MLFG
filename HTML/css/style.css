@@ -352,7 +352,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 }
 .top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
 	color: #FFFFFF;
-	background: #48A3A6 !important;
+	background: rgb(20,137,174) !important;
 }
 .top-bar .navbar .nav > li > a:focus, .top-bar.alt .navbar .nav > li > a:focus {
 	outline: 0;
@@ -407,16 +407,17 @@ nav select {
 
 /* Sections */
 #intro {
-	background:url(../images/backgrounds/intro.jpg) center center no-repeat fixed;
+	/*background:url(../images/backgrounds/intro.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 	color: white;
 	min-height: 300px;
-	height: 660px;
+	height: 660px !important;
 	margin: 0 auto;
 	padding: 0;
+	position: relative;
 }
 #about, #speakers, #why-attend, #three-pillars, #forum-experience, #program, #register, #buzz, #attended, #feedback, #results, #venue, #partners, #register2, #faq, #contact-form {
 	padding-top: 75px;
@@ -830,6 +831,9 @@ a.instagram:hover {
 .jumbotron {
 	padding-top: 200px;
 	height: 400px;
+	position: absolute;
+	top: 0;
+	margin-left: 30px;
 }
 .jumbotron > div.span12 {
 	display: inline-block;

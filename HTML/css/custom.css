@@ -22,6 +22,16 @@ blockquote::after {
 	content: '”';
 }
 
+/*------------INTRO SLIDER--------------*/
+
+#intro ul.bxslider-main {
+	margin: 0;
+}
+
+#intro .bx-wrapper .bx-viewport {
+	border: none;
+}
+
 .hero-unit p {
 	color: rgb(20,137,174);
 	font-weight: 400;
@@ -618,4 +628,12 @@ input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:f
 /*---------------MODAL--------------*/
 .modal {
 	width: 592px;
+}
+
+/*-------------- RESPONSIVE --------------------------------------------------------------------------------------------*/
+
+@media (max-width: 980px) {
+	#speakers .span3 {
+		/*width: 30%;*/
+	}
 }
