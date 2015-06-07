@@ -36,6 +36,10 @@ blockquote::after {
 	border: none;
 	height: 660px !important;
 }
+
+#intro .bx-wrapper .bx-viewport ul li {
+	width:100% !important;
+}
 /*-----------------------------------*/
 
 .hero-unit p {
@@ -73,12 +77,19 @@ blockquote::after {
 }	
 
 #why-attend img {
-	height: 100px;
-	width: 100px;
+	height: 70px;
+	width: 70px;
 }
 
 #why-attend h4 {
 	color: rgb(233,114,88);
+	font-size: 21px;
+	font-weight: normal;
+}
+
+#why-attend .span4 p {
+	font-size: 15px;
+	font-weight: 300;
 }
 
 #why-attend span, #speakers .exclamation span {
@@ -114,8 +125,8 @@ blockquote::after {
 }
 
 #leaders p.orange {
-	font-size: 18px;
-	margin-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
 	font-style: italic;
 }
 
@@ -527,6 +538,15 @@ blockquote::after {
 	width: 205px;
 }
 
+#partners h3 {
+	margin-bottom: 50px;
+}
+
+#partners img {
+	width: 100px;
+	height: 100px;
+}
+
 .Zebra_Accordion dd {
   display: none; 
 }
@@ -543,9 +563,9 @@ dl.Zebra_Accordion {
 }
 
 dl.Zebra_Accordion dt {
-  font-weight: 600;
+  font-weight: normal;
   padding: 15px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: rgb(20,137,174);
   background-color: transparent;
@@ -558,6 +578,14 @@ dl.Zebra_Accordion dt {
   display: block;
   clear: both;
   border-top: 1px solid rgb(20,137,174); 
+}
+
+dl.Zebra_Accordion dt:last-of-type, dl.Zebra_Accordion dd:last-of-type {
+	border-bottom: 1px solid rgb(20,137,174);
+}
+
+dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
+	border-bottom: none;
 }
 
 dl.Zebra_Accordion dt:hover {
@@ -573,7 +601,7 @@ dl.Zebra_Accordion dd {
   background-color: #fff;
   padding: 17px;
   margin: 0px 0;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 24px;
   color: #555; 
 }
@@ -586,29 +614,49 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
 }
 
 #contact img {
-	width: 150px;
-	height: 150px;
+	width: 125px;
+	height: 125px;
 	border-radius: 50%;
 	margin: 20px 0 30px;
 }
 
 #contact p, #contact a {
-	font-size: 19px;
+	font-size: 14px;
+	font-weight: 200;
 	margin-bottom: 0;
 }
 
+#contact p.name {
+	font-weight: normal;
+}
+
+#contact-form {
+	padding-top: 50px;
+}
+
+#contact-form label, #contact-form option {
+	color: rgb(20,137,174);
+}
+
+#contact-form option, select#mr-field-element-845857220934 {
+	font-size: 14px;
+	font-weight: 300;
+}
+
 select#mr-field-element-845857220934 {
-	width: 236px;
-	height: 40px;
-	font-weight: 400;
+	width: 226px;
+	height: 36px;
+	font-size: 14px;
+	font-weight: 300;
+	color: rgb(20,137,174);
 }
 
 input#mr-field-element-580245537683 {
 	background: rgb(20,137,174);
 	color: #fff;
 	border: none;
-	font-size: 18px;
-	padding: 15px 20px;
+	font-size: 14px;
+	padding: 15px;
 	margin-top: 20px;
 	border-radius: 8px;
 }
@@ -622,6 +670,12 @@ input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:f
 	transition: 0.25s;
 	-webkit-backface-visibility: hidden;
 	outline: 0;
+}
+
+#contact-form p.disclaimer {
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 20px;
 }
 
 #footer p {
@@ -751,6 +805,10 @@ input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:f
 		margin: 19px 0;
 	}
 
+	#buzz .mindful img.anderson {
+		margin-top: 44px;
+	}
+
 	#buzz .btn-modal2 {
 		left: 45%;
 	}
@@ -824,6 +882,9 @@ input#mr-field-element-580245537683:hover, input#mr-field-element-580245537683:f
 	.jumbotron h4 {
 		font-size: 16px;
 	}
+
+	#register, #register2 {
+	background: rgb(20,137,174);
 }
 
 
